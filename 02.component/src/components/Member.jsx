@@ -9,10 +9,10 @@ const member = ({team,price}) => {
             <h1>{team}</h1>
             <p>{price}</p> 
         </div>
-
      </div>
 
   )
 }
+ 
 
 export default member

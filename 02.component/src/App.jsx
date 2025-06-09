@@ -3,7 +3,10 @@ import Menubox from './components/Menubox'
 import './App.css'
 import React from 'react'
 import Member from './components/Member'
-import Count from './components/Count'
+import Count from './components/LikeCount'
+import LikeCount from './components/LikeCount'
+import LikeCount2 from './components/LikeCount2'
+import BattleNumber from './components/BattleNumber'
 
  // component (컴포넌트)
  // ui를 표현하는 최소단위
@@ -16,7 +19,7 @@ import Count from './components/Count'
  // 형태로 생성한 후 하위 컴포넌트로 전달  
  // 
 
-function App() {
+ function App() {
   
   return (
     <>
@@ -34,9 +37,19 @@ function App() {
     <Member team ={"한화이글스"} price={"류현진"} />
       </div>   */}
 
+      { /* 33333 */} 
       {/*state실습*/}
-      <Count/>
+      {/* <Count/> */}
 
+      { /* 44444 */}   
+       {/* <LikeCount/>  */}
+      
+      { /* 55555 */} 
+       {/* <LikeCount2/>  */}
+
+      { /* 66666 */}   
+       <BattleNumber/> 
+      
     </>
   )
 }
